@@ -1,8 +1,6 @@
 # gahssi.github.io
 
-My personal page!
-
-Built with Jekyll + GitHub Pages
+My personal page built using Jekyll + GitHub Pages
 
 And soon Bootstrap (once I know enough)
 
