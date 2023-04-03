@@ -9,9 +9,9 @@ And soon Bootstrap (once I know enough)
 ### To be added...
 
 #### About
-Find a cute selfie
-What am I self-studying (cybersecurity, visual computing, ML)
-Research labs/orgs I follow
+Find a cute selfie  
+What am I self-studying (cybersecurity, visual computing, ML)  
+Research labs/orgs I follow  
 Cert/skills roadmap
 
 #### Studies
