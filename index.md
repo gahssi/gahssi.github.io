@@ -20,12 +20,12 @@ title: Homepage
 
 # Hello!
 
-My name is Alexander, and welcome to my corner on the internet; here you will find my course notes, career resources, and whatever else I'm interested in posting.
+My name is Alexander, and welcome to my corner on the internet. Here you will find stuff about me, my studies, some resources I've collected to help break into cybersecurity, and my interests & hobbies.
 
 I'm a postgraduate student pursuing a Diploma in Industrial Network Cybersecurity at [BCIT](https://www.bcit.ca/). Outside of school I'm involved in the [ISACA Vancouver](https://engage.isaca.org/vancouverchapter/home) mentorship program and the [UBC CTF team](https://maplebacon.org/).
 
 
-I hope to freshen up my frontend development skills and have some fun with web design as I continue to flesh out this site. Speaking of skills, check out my [CV](cv) for more details.
+I hope to freshen up my frontend development skills and play around with web design as I continue to flesh out my site. Speaking of skills, check out my [CV](cv) for more details.
 
 ## Contacts
 
