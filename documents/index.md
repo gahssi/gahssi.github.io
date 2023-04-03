@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Documents
+title: Studies
 description: A collection of course notes and more
-nav_active: /documents
-permalink: /documents
+nav_active: /studies
+permalink: /studies
 ---
 
 <style>	

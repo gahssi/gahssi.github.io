@@ -1,22 +1,26 @@
 - text: 'Home'
   url: /
-  desc: You are here.
+  desc: Landing page to introduce myself.
 - text: 'Blog'
   url: /blog
-  desc: Just writing my thoughts down occasionally.
+  desc: Writing about my interests & hobbies, and CTF writeups possibly.
   # disabled: false
-- text: CV
-  url: /cv
-  desc: Education and work experience
-  disabled: false
-- text: Documents
-  url: /documents
-  desc: Notes and documents from school work.
+#- text: CV
+#  url: /cv
+#  desc: Education and experience.
+#  disabled: false
+- text: Calendar
+  url: /calendar
+  desc: Calendar for academics and other local events.
 - text: Projects
   url: /projects
   desc: My personal and collaborative project showcase.
   disabled: false
-- text: Photos
-  url: /photos
-  desc: A weekly journal of my personal photography as a hobby.
+- text: Studies
+  url: /studies
+  desc: Notes and documents from school work.
+  disabled: false
+- text: Resources
+  url: /Resources
+  desc: Collection of cybersecurity resources, tools, guides, blogs and more.
   disabled: false
