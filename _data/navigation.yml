@@ -1,0 +1,22 @@
+- text: 'Home'
+  url: /
+  desc: You are here.
+- text: 'Blog'
+  url: /blog
+  desc: Just writing my thoughts down occasionally.
+  # disabled: false
+- text: CV
+  url: /cv
+  desc: Education and work experience
+  disabled: false
+- text: Documents
+  url: /documents
+  desc: Notes and documents from school work.
+- text: Projects
+  url: /projects
+  desc: My personal and collaborative project showcase.
+  disabled: false
+- text: Photos
+  url: /photos
+  desc: A weekly journal of my personal photography as a hobby.
+  disabled: false

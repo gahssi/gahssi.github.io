@@ -1,0 +1,29 @@
+# This file contains the content that populates the
+# "skills" or "I can" section of the resume
+
+- category: Development
+  skills:
+  - Python
+  - Java
+  - C++
+  - C
+  - JavaScript
+  - HTML+CSS
+  - Linux
+  - git
+  - MATLAB
+  - R
+  - Numpy
+  - sklearn
+- category: Tools
+  skills:
+  - NI Multisim
+  - Wireshark
+  - Codesys
+- category: Communication
+  skills:
+  - LaTeX
+  - Academic and Technical Writing
+  - Jupyter
+  - Markdown
+  - Camtasia

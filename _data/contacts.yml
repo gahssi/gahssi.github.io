@@ -1,0 +1,46 @@
+default:
+  - title: "E-mail"
+    link: "mailto:alexyemun@gmail.com"
+    text: "alexyemun@gmail.com"
+    icon: "fas fa-envelope"
+    show_resume: true
+    show_homepage: true
+  - title: "GitHub"
+    link: "https://www.github.com/gahssi"
+    text: "gahssi"
+    icon: "fab fa-github"
+    show_resume: true
+    show_homepage: true
+  - title: "LinkedIn"
+    link: "https://www.linkedin.com/in/ayemane/"
+    text: "A Yemane"
+    icon: "fab fa-linkedin"
+    show_resume: true
+    show_homepage: true
+  - title: "gahssi.github.io"
+    link: "https://gahssi.github.io"
+    text: "gahssi.github.io"
+    icon: "fas fa-globe"
+    show_resume: true
+    show_homepage: false
+socials:
+  - title: "Instagram"
+    link: "https://www.instagram.com/yemahneh/"
+    text: "@yemahneh"
+    show_homepage: false
+  - title: "Twitter"
+    link: "https://www.twitter.com/yemunski/"
+    text: "@yemoonski"
+    show_homepage: false
+  - title: "Discord"
+    link: "#"
+    text: "Shimba#6201"
+    show_homepage: false
+  - title: "YouTube"
+    link: "#"
+    text: "Shimba"
+    show_homepage: false
+  - title: "Steam"
+    link: "#"
+    text: "Shimba"
+    show_homepage: false

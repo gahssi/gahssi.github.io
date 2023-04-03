@@ -1,0 +1,26 @@
+- school: Unviersity of British Columbia
+  degree: B.A.Sc.
+  major: Biomedical Engineering
+  start: 2017
+  end: 2022
+  affiliations:
+  - Maple Bacon  
+  courses:
+  - Biomedical Devices, Sensors, Instrumentation, and Diagnostics
+  - Microelectromechanical Systems
+  - Digital Signal and Image Processing
+  - Data Structures and Algorithms
+  - Machine Learning
+  - Computer Vision
+- school: British Columbia Institute of Technology
+  degree: Diploma
+  major: Industrial Network Cybersecurity
+  start: 2022
+  end: 2024
+  affiliations:
+  - Student Association
+  courses:
+  - Networking
+  - Windows PC System Administration
+  - Linux System Administration
+  - Programmable Logic Controllers
