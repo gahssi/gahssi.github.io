@@ -181,7 +181,7 @@ show_footer: false
 <section>
 	<h2>Education</h2>
 	<div>
-		{% for education in site.data.resume.education | reverse %}
+		{% for education in site.data.resume.education reversed %}
 		<div>
 			<h3 class="title my-1">
 				<span class="school float-end">{{ education.school }}</span>
