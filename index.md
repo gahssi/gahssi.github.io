@@ -24,7 +24,7 @@ My name is Alexander, and welcome to my corner on the internet. Here you will fi
 
 I'm a postgraduate student pursuing a Diploma in Industrial Network Cybersecurity at [BCIT](https://www.bcit.ca/). Outside of school I'm involved in the [ISACA Vancouver](https://engage.isaca.org/vancouverchapter/home) mentorship program and the [UBC CTF team](https://maplebacon.org/).
 
-Besides that, this site is a nice hobby project for me to dust off my frontend development skills and play around with web design. Speaking of skills, feel welcome to check out my [CV](cv).
+Besides that, this site is a nice hobby project to get me to dust off my frontend development skills and get creative with web design. Speaking of skills, feel welcome to check out my [CV](cv).
 
 ## Contacts
 
