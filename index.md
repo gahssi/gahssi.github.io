@@ -50,7 +50,7 @@ title: Homepage
     <div class="image-border"></div>
 </div>
 
-My name is Alexander, and welcome to my corner on the internet. Here you will find stuff about me, my interests and hobbies, my studies, and a collection of cybsersecurity resources to help me and others learn more about the field.
+My name is Alexander Yemane, and welcome to my corner on the internet. Here you will find stuff about me, my interests and hobbies, my studies, and my growing pile of resources and references about cybersecurity.
 
 I'm a postgraduate student pursuing a Diploma in Industrial Network Cybersecurity at [BCIT](https://www.bcit.ca/). Outside of school I'm involved in the [ISACA Vancouver](https://engage.isaca.org/vancouverchapter/home) mentorship program, the [UBC CTF team](https://maplebacon.org/), and the [Southern Labs Institute Of Technology](https://southernlabs.co.za/) (a NPO partnered with my school) peer tutoring program.
 
