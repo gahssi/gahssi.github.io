@@ -5,24 +5,24 @@ default:
     icon: "fas fa-envelope"
     show_resume: true
     show_homepage: true
+  - title: "LinkedIn"
+    link: "https://www.linkedin.com/in/ayemane/"
+    text: "ayemane"
+    icon: "fab fa-linkedin"
+    show_resume: true
+    show_homepage: true  
+  - title: "gahssi.github.io"
+    link: "https://gahssi.github.io"
+    text: "gahssi.github.io"
+    icon: "fas fa-globe"
+    show_resume: true
+    show_homepage: false  
   - title: "GitHub"
     link: "https://www.github.com/gahssi"
     text: "gahssi"
     icon: "fab fa-github"
     show_resume: true
     show_homepage: true
-  - title: "LinkedIn"
-    link: "https://www.linkedin.com/in/ayemane/"
-    text: "A Yemane"
-    icon: "fab fa-linkedin"
-    show_resume: true
-    show_homepage: true
-  - title: "gahssi.github.io"
-    link: "https://gahssi.github.io"
-    text: "gahssi.github.io"
-    icon: "fas fa-globe"
-    show_resume: true
-    show_homepage: false
 socials:
   - title: "Instagram"
     link: "https://www.instagram.com/yemahneh/"
