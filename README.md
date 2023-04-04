@@ -13,7 +13,7 @@ Research labs/orgs I follow
 Cert/skills roadmap
 
 #### Studies
-Course calendar ✅ (needs to be expanded more, extended features [here](https://fullcalendar.io/docs))
+Course calendar ✅ (needs to be expanded more, refer to [this](https://fullcalendar.io/docs))
 
 #### Resources
 Collate cybersecurity resources (bookmarks, many bookmarks...)
