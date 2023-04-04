@@ -2,7 +2,7 @@
 
 My personal page, built using Jekyll + GitHub Pages
 
-And soon Bootstrap 5 (WIP)
+Looking into Bootstrap 5 as well
 
 ### To be added...
 
