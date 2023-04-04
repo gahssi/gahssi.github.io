@@ -54,7 +54,7 @@ Welcome to my little hideout on the internet! My name is Alexander Yemane, and h
 
 I'm a postgraduate student pursuing a Diploma in Industrial Network Cybersecurity at [BCIT](https://www.bcit.ca/). Outside of school I'm involved in the [ISACA Vancouver](https://engage.isaca.org/vancouverchapter/home) mentorship program, the [UBC CTF team](https://maplebacon.org/), and the [Southern Labs Institute Of Technology](https://southernlabs.co.za/who-we-are/) peer tutoring program.
 
-You'll be seeing this site change often as I pick up one of my older passions in web design and continue with experiment with my style. Speaking of, feel free to check out my [CV](cv) to learn more about me.
+You'll be seeing this site change often as I pick up one of my older passions in web design and experiment with my style. Speaking of, feel free to check out my [CV](cv) to learn more about me.
 
 ## Contacts
 
@@ -70,7 +70,5 @@ You'll be seeing this site change often as I pick up one of my older passions in
 <i>{{ item.title }}</i>
 {% endif %}
 <!-- <a href="{{ item.link }}">{{ item.text }}</a>&nbsp; -->
-
-
 {% endfor %}
 </p>
