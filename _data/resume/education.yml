@@ -1,8 +1,8 @@
-- school: Unviersity of British Columbia
+- school: University of British Columbia
   degree: B.A.Sc.
   major: Biomedical Engineering
-  start: 2017
-  end: 2022
+  start: Sep 2017
+  end: May 2022
   affiliations:
   - Maple Bacon  
   courses:
@@ -15,8 +15,8 @@
 - school: British Columbia Institute of Technology
   degree: Diploma
   major: Industrial Network Cybersecurity
-  start: 2022
-  end: 2024
+  start: Sep 2022
+  end: May 2024
   affiliations:
   - Student Association
   courses:
