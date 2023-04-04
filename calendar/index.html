@@ -1,0 +1,45 @@
+---
+layout: page
+title: Calendar
+permalink: /calendar/
+---
+
+<!--
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" integrity="sha512-KttE6wuC8Fb5U5ue3u6a5zV7GQ6DfYcZ3q3ZKmScg8QGZ+/INMkDhcc9BvhvK8nPlWYdkpAfS0ZbNtTpxTavTg==" crossorigin="anonymous" />
+-->
+
+<!--
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FVancouver&showTitle=0&title=Winter%20Calendar&src=cG5mdDBzdGluYWlzZmJmYjFpMW9sbjZnczk2MG9zOGNAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23E4C441" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+-->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.5/index.global.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.1.5/index.global.min.js'></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            headerToolbar: {
+                left: 'prev,next',
+                center: 'title',
+                right: 'dayGridMonth,dayGridWeek,dayGridDay' // user can switch between the two
+            },
+            googleCalendarApiKey: 'AIzaSyBOsvv6P6M_Vc6of7unS2cpyy6OQQOdG18',
+            events: {
+                googleCalendarId: 'pnft0stinaisfbfb1i1oln6gs960os8c@import.calendar.google.com',
+            },
+            eventClick: function(info) {
+                info.jsEvent.preventDefault(); // don't let the browser navigate
+            }
+        });
+        calendar.render();
+    });
+</script>
+  
+
+<div id="calendar"></div>
+
+

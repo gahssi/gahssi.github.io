@@ -13,12 +13,42 @@ title: Homepage
     position: absolute;
     width: 100%;
 }
+
+.image-wrapper {
+    width: 250px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.image-border {
+    position: absolute;
+    z-index: -1;
+    bottom: -10px;
+    right: -10px;
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid #2F7C5B;
+    border-bottom: 2px solid #B56A4A;
+    box-sizing: border-box;
+}
+
+.image-wrapper img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 </style>
 <script src="https://kit.fontawesome.com/c83e37f840.js" crossorigin="anonymous"></script>
 
 <div class="my-5"></div>
 
 # Hello!
+
+<div class="image-wrapper">
+    <img src="/assets/about/selfie.jpg" alt="selfie" />
+    <div class="image-border"></div>
+</div>
 
 My name is Alexander, and welcome to my corner on the internet. Here you will find stuff about me, my interests and hobbies, my studies, and a collection of cybsersecurity resources to help me and others learn more about the field.
 
