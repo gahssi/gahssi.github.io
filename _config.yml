@@ -69,14 +69,29 @@ defaults:
       nav_active: /blog
       permalink: "/blog/:year/:title/"
   - scope:
-      path: "documents"
+      path: "calendar"
     values:
-      layout: doc
-      nav_active: /documents
+      layout: default
+      nav_active: /calendar
+  - scope:
+      path: "projects"
+    values:
+      layout: default
+      nav_active: /projects      
+  - scope:
+      path: "studies"
+    values:
+      layout: default
+      nav_active: /studies
+  - scope:
+      path: "resources"
+    values:
+      layout: default
+      nav_active: /resources
 
-collections:
-  photos:
-    output: true
+#collections:
+#  photos:
+#    output: true
 
 use_image_as_brand: false
 
