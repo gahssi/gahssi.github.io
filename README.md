@@ -1,6 +1,6 @@
 # gahssi.github.io
 
-My personal page built using Jekyll + GitHub Pages
+My personal page, built using Jekyll + GitHub Pages
 
 And soon Bootstrap 5 (WIP)
 
