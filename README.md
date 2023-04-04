@@ -7,13 +7,13 @@ Looking into Bootstrap 5 (soon<sup>TM</sup>)
 ### To be added...
 
 #### About
-Find a cute selfie ✅  
+Find a cute selfie ✅ 
 What am I self-studying (cybersecurity, visual computing, ML)  
 Research labs/orgs I follow  
 Cert/skills roadmap
 
 #### Studies
-Course calendar ✅ (to be expanded more, referring to [this](https://fullcalendar.io/docs) atm)
+Course calendar ✅ via Notion Cafe->GCal->FullCalendar (to be expanded more, referring to [this](https://fullcalendar.io/docs) atm)
 
 #### Resources
 Collate cybersecurity resources (bookmarks, many bookmarks...)
