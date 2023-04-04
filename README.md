@@ -7,7 +7,7 @@ And soon Bootstrap 5 (WIP)
 ### To be added...
 
 #### About
-Find a cute selfie ✅
+Find a cute selfie ✅  
 What am I self-studying (cybersecurity, visual computing, ML)  
 Research labs/orgs I follow  
 Cert/skills roadmap
