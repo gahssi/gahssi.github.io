@@ -2,7 +2,7 @@
 
 My personal page, built using Jekyll + GitHub Pages
 
-Looking into Bootstrap 5 (soon ^TM^)
+Looking into Bootstrap 5 (soon<sup>TM</sup>)
 
 ### To be added...
 
