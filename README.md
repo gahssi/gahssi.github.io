@@ -2,13 +2,13 @@
 
 My personal page, built using Jekyll + GitHub Pages
 
-Looking into Bootstrap 5 (soon<sup>TM</sup>)
+Looking into Bootstrap 5 for later use
 
 ### To be added...
 
 #### About
 Find a cute selfie ✅  
-What am I self-studying (cybersecurity, visual computing, ML)  
+What am I self-studying (cybersecurity, ML, visual computing)  
 Research labs/orgs I follow  
 Cert/skills roadmap
 
