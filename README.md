@@ -7,8 +7,7 @@ Looking into Bootstrap 5 for later use
 ### To be added...
 
 #### About
-Find a cute selfie ✅  
-What am I self-studying (cybersecurity, ML, visual computing)  
+What I am self-studying (cybersecurity, ML, visual computing)  
 Research labs/orgs I follow  
 Cert/skills roadmap
 
@@ -17,6 +16,7 @@ Course calendar ✅ via Notion Cafe->GCal->FullCalendar (to be expanded more, re
 
 #### Resources
 Collate cybersecurity resources (bookmarks, many bookmarks...)
+Create a graph view with Cosma/Telescope OR a mind map ala Hyperphysics
 
 #### Blog
 Include my interests:
