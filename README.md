@@ -15,7 +15,7 @@ Cert/skills roadmap
 Course calendar ✅ via Notion Cafe->GCal->FullCalendar (to be expanded more, referring to [this](https://fullcalendar.io/docs) atm)
 
 #### Resources
-Collate cybersecurity resources (bookmarks, many bookmarks...)
+Collate cybersecurity resources (bookmarks, many bookmarks...)  
 Create a graph view with Cosma/Telescope OR a mind map ala Hyperphysics
 
 #### Blog
