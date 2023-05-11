@@ -7,49 +7,49 @@ permalink: /studies
 ---
 
 <style>	
-	#searchField {
-		/* border: none; */
-		/* background-color: transparent; */
-		/* border-bottom: 1px dotted var(--text-color); */
-		color: var(--text-color);
-		margin-top: .8em;
-		border: 1px solid black;
-	}
-	#searchFieldIcon { font-size: 1.25em; }
-	
-	.card { width: 100%; margin-bottom: 1em; border: none; background: transparent; }
-	.card-body { padding: 0; }
-	.card-body .list-group .list-group-item {
-		border: none;
-		padding: 0;
-		white-space: nowrap;
-		margin: 0;
-		background: transparent;
-		color: inherit;
-	}
-	.card-body .list-group .list-group-item .btn-entry {
-		margin-top: .1em;
-		margin-bottom: .1em;
-	}
+#searchField {
+	/* border: none; */
+	/* background-color: transparent; */
+	/* border-bottom: 1px dotted var(--text-color); */
+	color: var(--text-color);
+	margin-top: .8em;
+	border: 1px solid black;
+}
+#searchFieldIcon { font-size: 1.25em; }
 
-	.card-gutter-sizer { width: 0; }
-	@media screen and (min-width: 992px) {
-		.card { width: 49%; }
-		.card-gutter-sizer { width: 2%; }
-	}
-	@media screen and (min-width: 768px) and (max-width: 992px) {
-		.card { width: 98%; }
-		.card-gutter-sizer { width: 1%; }
-	}
-	
-	.flag-draft { text-decoration: line-through; }
-	</style>
+.card { width: 100%; margin-bottom: 1em; border: none; background: transparent; }
+.card-body { padding: 0; }
+.card-body .list-group .list-group-item {
+	border: none;
+	padding: 0;
+	white-space: nowrap;
+	margin: 0;
+	background: transparent;
+	color: inherit;
+}
+.card-body .list-group .list-group-item .btn-entry {
+	margin-top: .1em;
+	margin-bottom: .1em;
+}
+
+.card-gutter-sizer { width: 0; }
+@media screen and (min-width: 992px) {
+	.card { width: 49%; }
+	.card-gutter-sizer { width: 2%; }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.card { width: 98%; }
+	.card-gutter-sizer { width: 1%; }
+}
+
+.flag-draft { text-decoration: line-through; }
+</style>
 
 # Notes and Docs
 
 This page contains my notes/documents/reports for the courses I've taken.
 I try to fill in as much as possible but there may be a lot missing.
-Oh and I'm only human and there may be mistakes; so only use content from this page as reference material. Thanks for accepting the terms and conditions :)
+NB: I'm only human so there may be mistakes. Only use content from this page as reference material. :)
 
 <span id="searchFieldIcon">&#128270;&nbsp;</span><input type="text" id="searchField" onkeyup="searchFunc()" placeholder="Search...">
 
