@@ -12,7 +12,7 @@ List of resources for cybersecurity career growth and professional development.
 
 ### CTFs
 
-Ghost in the Shellcode
+Ghost in the Shellcode  
 Google CTF  
 Hacker101 CTF - focuses on webapp sec  
 
@@ -54,7 +54,7 @@ Malware Unicorn Workshops
 Open Security Training  
 Penteseter Lab  
 PentestIT Labs  
-[PortSwigger Web Security Academy](https://portswigger.net/web-security)
+[PortSwigger Web Security Academy](https://portswigger.net/web-security)  
 Root Me  
 [ROP Emporium](https://ropemporium.com/)  
 TryHackMe  
@@ -106,21 +106,21 @@ Mainland Advanced Research Society (MARS)
 
 #### Virtual
 
-Binary Ninja Slack
-CentralSec Slack
-Penetration Testers Slack
-[Cybersecurity Mentorship Hub](https://cybersecmentorship.org/)
-[MeetCyber](https://meetcyber.net/)
+Binary Ninja Slack  
+CentralSec Slack  
+Penetration Testers Slack  
+[Cybersecurity Mentorship Hub](https://cybersecmentorship.org/)  
+[MeetCyber](https://meetcyber.net/)  
 
 ## Media
 
 ### News
 
 [all InfoSec news](https://allinfosecnews.com/news/) - infosec news aggregator  
-Dark Reading
-The Hacker News
-SecuriTeam
-SANS NewsBites
+Dark Reading  
+The Hacker News  
+SecuriTeam  
+SANS NewsBites  
 
 ### YouTube Channels
 
@@ -201,5 +201,5 @@ Krebs on Security
 
 ### Guides
 
-[Privacy Resources](https://techlore.tech/resources)  
-
+[Privacy Resources](https://techlore.tech/resources) by Techlore  
+[Privacy Tools](https://www.privacyguides.org/en/tools/) by Privacy Guides  
