@@ -1,5 +1,8 @@
-- name: Canadian Engineering Accreditation Board SBME Senior Candidate
+- name: CEAB Biomedical Engineering Senior Candidate
   date: '2021'
 - name: Golden Key Letter of Invitation
   description: 'Awarded to top 15% of faculty'
   date: '2018-2020'
+- name: SaplingCTF 2023 Winner (UBC internal CTF competition)
+  description: 'Annual UBC internal CTF competition'
+  date: '2023'

@@ -1,11 +1,17 @@
 entries:
+- company: 'BCIT IT Services'
+  title: "Student Technology Assistant"
+  location: "Vancouver, BC"
+  start: "Jun 2023"
+  end: "May 2024"
+  description: "Assist students and guests in connecting to school’s internet service and troubleshoot connectivity problems as required."
 - company: 'Southern Labs Institute of Technology'
   title: "Peer Tutor"
   location: "Remote"
   start: "Mar 2023"
-  end: "present"
+  end: "May 2023"
   description: "Provide teaching assistance to students in Essentials of Data Networks distance-learning microcredential course. Engage regularly with teacher and staff and review course materials weekly."
-- company: 'British Columbia Institute of Technology'
+- company: 'BCIT Student Association'
   title: 'INCS Set Representative'
   location: 'Burnaby, BC'
   start: 'Oct 2022'
@@ -14,12 +20,6 @@ entries:
 - company: 'Heritage Language School'
   title: 'Administrative & Teacher Assistant Volunteer'
   location: 'Greater Vancouver, BC'
-  start: 'Sept 2015'
+  start: 'Sep 2015'
   end: 'present'
   description: "Set up computer and office equipment and ensure they are in good working order. Monitor the classroom to maintain a safe, orderly learning environment. Provide homework help and coach effective study and organizational skills."
-- company: 'BCIT IT Services'
-  title: "Student Technology Assistant (Upcoming Summer Internship)"
-  location: "Vancouver, BC"
-  start: "Jun 2023"
-  end: "Sep 2023"
-  description: "Assist students and guests in connecting to school’s internet service and troubleshoot connectivity problems as required."

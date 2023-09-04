@@ -4,6 +4,8 @@ title: Resources
 permalink: /resources/
 ---
 
+{% include toc.html html=content h_min=my_min h_max=my_max %}
+
 # Resources
 
 List of resources for cybersecurity career growth and professional development.
@@ -126,10 +128,10 @@ SANS NewsBites
 
 [Ippsec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA)  
 [The Cyber Mentor](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw)  
-[Nahamsec](https://www.youtube.com/c/nahamsec)
-Simply Cyber
-John Hammond
-HackerSploit
+[Nahamsec](https://www.youtube.com/c/nahamsec)  
+Simply Cyber  
+John Hammond  
+HackerSploit  
 
 #### Streams
 
@@ -144,6 +146,10 @@ HackerSploit
 Sandworm  
 The Cuckoo's Egg  
 Countdown to Zero Day  
+Dark Territory: The Secret History of Cyber War  
+Space Rogue: How the Hackers Known As L0pht Changed the World  
+Tracers in the Dark: The Global Hunt for the Crime Lords of Cryptocurrency 
+Red Team Blues  
 
 #### Fiction
 
@@ -188,7 +194,6 @@ Caveat - surveillance, digital privacy, cybersecurity law and policy
 Hacking Humans - social engineering scams, phishing schemes, criminal exploits  
 SpyCast - espionage  
 Hacking the Gibson - hacker history  
-
 
 ## Blogs and Articles
 

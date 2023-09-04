@@ -14,8 +14,11 @@
 </head>
 <header>
 {% include header.html %}
+{% assign my_min = page.toc_min | default: site.toc_min | default: 2 %}
+{% assign my_max = page.toc_max | default: site.toc_max | default: 4 %}
 </header>
-<body>
+<body>{% assign my_min = page.toc_min | default: site.toc_min | default: 1 %}
+{% assign my_max = page.toc_max | default: site.toc_max | default: 3 %}
 {% if page.watermark %}
 <div style="position: fixed; z-index: -1; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%);">
 <p style="color: rgba(0,0,0,0.1); font-size:6em; transform:rotate(315deg); -webkit-transform:rotate(315deg); font-family: serif">
