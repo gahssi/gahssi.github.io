@@ -2,6 +2,9 @@
   date: '2021'
 - name: Golden Key Letter of Invitation
   description: 'Awarded to top 15% of faculty'
+  date: '2018'
+- name: Dean's Honor List
+  description: '>80% GPA'
   date: '2018-2020'
 - name: SaplingCTF 2023 Winner (UBC internal CTF competition)
   description: 'Annual UBC internal CTF competition'

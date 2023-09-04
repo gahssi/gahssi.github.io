@@ -8,7 +8,8 @@
     start: 2020-09-01
     end: 2022-01-31
   description: ''
-  brief: 'Live streaming platform that connects seniors affected by COVID-driven isolation with their loved ones in an immersive virtual setting. Built using real-time portrait segmentation via BoofCV computer vision library and GUI toolkit via JavaFX.'
+  brief: 'Live streaming platform that connects seniors affected by COVID-driven isolation with their loved ones in an immersive virtual setting.'
+  # Built using real-time portrait segmentation via BoofCV computer vision library and GUI toolkit via JavaFX.
   mot: course
   worthy: True
 
@@ -17,7 +18,8 @@
     start: 2019-01-01
     end: 2021-02-31
   description: ''
-  brief: 'Internet radio station that broadcasted music, community and cultural affairs. Responsible for building station’s schedule and receiving guest recordings. Implemented core audio streaming and webserver technologies on Ubuntu VPS'
+  brief: 'Independent Internet radio station that broadcasted music, community and cultural affairs. Formerly available at https://www.radiobana.com'
+  # Responsible for building station’s schedule and receiving guest recordings. Implemented core audio streaming and webserver technologies on Ubuntu VPS.
   mot: independent
   worthy: True
 
@@ -26,6 +28,7 @@
     start: 2018-01-01
     end: 2018-04-31
   description: ''
-  brief: 'IoT-enabled medication adherence bracelet and pillbox system for young children with chronic illnesses. Integrated simple HTML and Javascript frontend with Arduino Uno WiFi microcontroller to relay reminders via smartphone to smart bracelet'
+  brief: 'IoT-enabled medication adherence bracelet and pillbox system for young children with chronic illnesses.'
+  # Integrated simple HTML and Javascript frontend with Arduino Uno WiFi microcontroller to relay reminders via smartphone to smart bracelet.
   mot: course
   worthy: True
