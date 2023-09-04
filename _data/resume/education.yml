@@ -18,9 +18,11 @@
   start: Sep 2022
   end: Jun 2024
   affiliations:
-  - Student Association
+  - BCIT Student Association
   courses:
   - Networking
-  - Windows PC System Administration
-  - Linux System Administration
-  - Programmable Logic Controllers
+  - Windows & Linux System Administration
+  - Penetration Testing
+  - Embedded Systems
+  - Control Systems
+  
