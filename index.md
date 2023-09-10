@@ -52,9 +52,9 @@ title: Alexander's Abode
 
 Welcome to my little hideout on the internet! My name is Alexander Yemane, and here you will find stuff about me, my passions, my studies, and my compendium of curiosities, which is mostly curated towards my cybersecurity educational journey.
 
-I'm a postgraduate student pursuing a Diploma in Industrial Network Cybersecurity at [BCIT](https://www.bcit.ca/). Outside of school, I'm involved in the mentorship program @ [ISACA Vancouver](https://engage.isaca.org/vancouverchapter/home), the CTF team @ [UBC](https://maplebacon.org/), and various meetups organized by the [Mainland Advanced Research Society (MARS)](https://fourthplanet.ca/). You can find this information and more in my CV [here](cv) if you're interested.
+I'm a postgraduate student pursuing a Diploma in Industrial Network Cybersecurity at [BCIT](https://www.bcit.ca/). Outside of school, I'm involved in the CTF team @ [UBC](https://maplebacon.org/) and various meetups and workshops organized by the [Mainland Advanced Research Society (MARS)](https://fourthplanet.ca/) and [ISACA Vancouver](https://engage.isaca.org/vancouverchapter/home). You can find this information and more in my [CV](cv).
 
-Note: I have a habit of tinkering so the aesthetic and form of this site may change a lot since the last time you've checked in. You've been warned :) 
+NB: This site might get many makeovers as I tinker and trial different ideas and designs :)
 
 ## Contacts
 
