@@ -3,6 +3,16 @@
 # This data is used both by the projects page
 # as well as the resume page
 
+- name: 'Vital Signs Monitor'
+  dates:
+    start: 2023-11-03
+    end: 2023-12-16
+  description: ''
+  brief: 'Cloud-enabled wearable vital signs monitor and notification system for early accident detection.'
+  # Built using real-time portrait segmentation via BoofCV computer vision library and GUI toolkit via JavaFX.
+  mot: course
+  worthy: True
+
 - name: 'Summer Inventory Upgrade'
   dates:
     start: 2023-07-26
@@ -10,7 +20,7 @@
   description: ''
   brief: 'Co-led project with another student lab proctor to replace and deploy new Windows 11 workstations for all labs and classrooms in BCIT Downtown campus before start of 2023 fall term.'
   # Built using real-time portrait segmentation via BoofCV computer vision library and GUI toolkit via JavaFX.
-  mot: course
+  mot: work
   worthy: True
 
 - name: 'Virtual Immersive Experience for Seniors'
