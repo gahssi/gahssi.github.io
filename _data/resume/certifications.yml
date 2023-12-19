@@ -1,6 +1,6 @@
-- name: 'CCNA: Introduction to Networks'
-  organization: British Columbia Institute of Technology
-  date: '2022'
+- name: 'CCNA'
+  organization: Cisco
+  date: '2023'
 #- name: CCNA 200-301
 #  organization: British Columbia Institute of Technology
 #  date: '2023'

@@ -3,6 +3,16 @@
 # This data is used both by the projects page
 # as well as the resume page
 
+- name: 'Vital Signs Monitor'
+  dates:
+    start: 2023-11-03
+    end: 2023-12-16
+  description: ''
+  brief: 'Wearable vital signs monitor and notification system for early accident detection.'
+  # Built using real-time portrait segmentation via BoofCV computer vision library and GUI toolkit via JavaFX.
+  mot: course
+  worthy: True
+
 - name: 'Virtual Immersive Experience for Seniors'
   dates:
     start: 2020-09-01

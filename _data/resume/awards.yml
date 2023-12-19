@@ -1,3 +1,6 @@
+- name: SaplingCTF 2023 Winner (UBC internal CTF)
+  description: 'Annual UBC internal CTF'
+  date: '2023'
 - name: CEAB Biomedical Engineering Senior Candidate
   date: '2021'
 - name: Golden Key Letter of Invitation
@@ -6,6 +9,3 @@
 - name: Dean's Honor List
   description: '>80% GPA'
   date: '2018-2020'
-- name: SaplingCTF 2023 Winner (UBC internal CTF competition)
-  description: 'Annual UBC internal CTF competition'
-  date: '2023'

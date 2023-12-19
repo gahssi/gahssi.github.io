@@ -23,6 +23,11 @@ default:
     icon: "fab fa-github"
     show_resume: true
     show_homepage: true
+  - title: "Phone"
+    text: "236-412-4586"
+    icon: "fas fa-phone"
+    show_resume: true
+    show_homepage: false
 socials:
   - title: "Instagram"
     link: "https://www.instagram.com/yemahneh/"
