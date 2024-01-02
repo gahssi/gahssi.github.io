@@ -1,6 +1,9 @@
 - name: 'CCNA'
   organization: Cisco
   date: '2023'
+- name: 'AWS SAA-C03'
+  organization: Amazon
+  date: '2024'
 #- name: CCNA 200-301
 #  organization: British Columbia Institute of Technology
 #  date: '2023'

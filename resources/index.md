@@ -71,19 +71,23 @@ CyberSci
 
 ### Conferences
 
-#### Annual local conferences
+#### Recurring (local)
 
 BSides Vancouver  
 Vancouver International Privacy & Security Summit (VIPSS)  
 CanSecWest
 
-#### Other local conferences in 2023-2024
+#### Non-recurring (local)
 
 [Linux Security Summit](https://events.linuxfoundation.org/linux-security-summit-north-america/?ref=infosec-conferences.com), May 10-12, 2023  
 [Open Source Summit](https://events.linuxfoundation.org/open-source-summit-north-america/?ref=infosec-conferences.com), May 10-12, 2023  
 [Data Connectors](https://dataconnectors.com/events/2023/august/vancouver-2/?meevents), August 10, 2023  
 
 Refer to [InfoSec Conferences](https://infosec-conferences.com/country/canada/) for a regularly updated cybersecurity conference directory
+
+#### Annual (non-local)
+
+SecTor (Toronto)
 
 ### Instructor Led Webinars/Labs/Workshops
 
