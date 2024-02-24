@@ -106,8 +106,7 @@ show_footer: false
 <section style="border-bottom: 1px solid black;">
 	<h1 class="my-0">Alexander Yemane</h1>
 	<p class="mb-1">
-		Postgraduate student studying OT cybersecurity, eager to integrate secure  
-		design principles for the next generation of medical devices.
+		Driven by curiosity, Defined by integrity. Dedicated to empowering communities.
 	</p>
 	<p class="contact my-2">
 		{% for item in site.data.contacts.default %}
@@ -129,7 +128,7 @@ show_footer: false
 	<div class="spaced-list">
 		{% for skill_category in site.data.resume.skills %}
 		<p class="skill-category">
-			<!-- <span class="skill-category-label">{{ skill_category.category }}</span>: -->
+			<span class="skill-category-label"><b>{{ skill_category.category }}</b></span>:<br/>
 			{{ skill_category.skills | join: ', ' }}
 		</p>
 		{% endfor %}

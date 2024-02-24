@@ -13,12 +13,12 @@
   mot: course
   worthy: True
 
-- name: 'Summer Inventory Upgrade'
+- name: 'BCIT Downtown Campus Inventory Upgrade'
   dates:
     start: 2023-07-26
     end: 2023-09-07
   description: ''
-  brief: 'Co-led project with IT support analyst to replace and deploy new Windows 11 workstations for all labs and classrooms in BCIT Downtown campus before 2023 fall term start.'
+  brief: 'Internship summer project to replace and deploy new Windows 11 workstations for all computer labs and classrooms before 2023 fall term start (co-led with another IT support analyst).'
   # Built using real-time portrait segmentation via BoofCV computer vision library and GUI toolkit via JavaFX.
   mot: work
   worthy: True
@@ -38,7 +38,7 @@
     start: 2019-01-01
     end: 2021-02-31
   description: ''
-  brief: 'Independent Internet radio station that broadcasted music, community and cultural affairs. Formerly available at https://www.radiobana.com'
+  brief: 'Independent Internet radio station that broadcasted music, community and cultural affairs. Formerly available at https://www.radiobana.com.'
   # Responsible for building station’s schedule and receiving guest recordings. Implemented core audio streaming and webserver technologies on Ubuntu VPS.
   mot: independent
   worthy: True

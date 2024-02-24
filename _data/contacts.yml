@@ -11,12 +11,12 @@ default:
     icon: "fab fa-linkedin"
     show_resume: true
     show_homepage: true  
-  - title: "gahssi.github.io"
-    link: "https://gahssi.github.io"
-    text: "gahssi.github.io"
-    icon: "fas fa-globe"
-    show_resume: true
-    show_homepage: false  
+#  - title: "gahssi.github.io"
+#    link: "https://gahssi.github.io"
+#    text: "gahssi.github.io"
+#    icon: "fas fa-globe"
+#    show_resume: true
+#    show_homepage: false  
   - title: "GitHub"
     link: "https://www.github.com/gahssi"
     text: "gahssi"

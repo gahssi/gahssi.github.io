@@ -7,23 +7,26 @@
   - Java
   - C++
   - C
-  - JavaScript (Node.js)
-  - HTML+CSS
-  - Linux (Ubuntu, Kali)
-  - git
+  - JavaScript [Node.js]
+  - HTML
   - MATLAB
   - R
-  - Numpy
-  - sklearn
+- category: Systems
+  skills:
+  - AWS
+  - Linux [Ubuntu, Kali]
+  - Cisco IOS
+  - Windows Server 2022
 - category: Tools
   skills:
-  - NI Multisim
+  - VMware
+  - GitHub
   - Wireshark
-  - Codesys
-- category: Communication
+  - Codesys 
+  - NI Multisim
+- category: Research & Communication
   skills:
-  - Academic and Technical Writing
+  - Microsoft 365
   - LaTeX
   - Markdown
-  - Jupyter
   - Camtasia

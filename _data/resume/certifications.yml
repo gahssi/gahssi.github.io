@@ -1,7 +1,7 @@
-- name: '<a href="/assets/Completion letter.pdf">AWS SAA-C03</a>'
+- name: '<a href="/assets/Completion letter.pdf">AWS SAA [AWS Academy]</a>'
   organization: Amazon
   date: '2024'
-- name: 'CCNA'
+- name: 'CCNA 1-3 [Cisco NetAcad]'
   organization: Cisco
   date: '2024'
 #- name: CCNA 200-301
