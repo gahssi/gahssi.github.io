@@ -1,25 +1,38 @@
 entries:
 - company: 'BCIT IT Services'
-  title: "IT Support Assistant (Internship)"
+  title: "IT Support Assistant"
   location: "Vancouver, BC"
   start: "Jun 2023"
   end: "present"
-  description: "Service desk and lab proctor at BCIT Downtown campus. Assist with front-line on-site troubleshooting; incident tracking, escalation, and documentation; service asset and configuration management; network cable/drop testing and analysis; and deploying and re-imaging computer lab workstations."
+  doings: 
+  - "Service desk and computer lab proctor at BCIT IT Services internship, mainly based in Downtown Campus, assisting with:"
+  - "Front-line troubleshooting via service counter, phone, and email."
+  - "Incident tracking, escalation, and documentation."
+  - "Service asset and configuration management."
+  - "Network cable/drop testing and analysis."
+  - "Deploying and re-imaging Windows and Mac workstations."
+- company: 'BCIT Education Council'
+  title: 'Student Body Representative'
+  location: 'Burnaby, BC'
+  start: 'Jun 2023'
+  end: 'present'
+  doings: 
+  - "Review all new and revised educational policies and associated procedures for awards, credentials, academic standing, appeals, and exams, and provide recommendations to Council."
+  - "Consult with BCIT community to determine and draft any amendments recommended for policies under consideration."
 - company: 'Southern Labs Institute of Technology'
   title: "Networking Peer Tutor"
   location: "Remote"
   start: "Mar 2023"
   end: "Dec 2023 (excl. Jun-Aug)"
-  description: "Provided teaching assistance to students in Essentials of Data Networks microcredential courses. Regularly engaged with instructor and staff and reviewed course materials."
-- company: 'BCIT Education Council'
-  title: 'Student Body Representative'
-  location: 'Burnaby, BC'
-  start: 'June 2023'
-  end: 'present'
-  description: "Review all new and revised educational policies and associated procedures for awards, credentials, academic standing, appeals, and exams, and make recommendations to Council. Consult with BCIT community to determine and draft any amendments recommended for policies under consideration."
+  doings: 
+  - "Assisted students in Essentials of Data Networks microcredential courses via WhatsApp group."
+  - "Regularly engaged with instructor and staff and reviewed course materials."
 - company: 'Heritage Language School'
   title: 'Administrative & Teacher Assistant (Volunteer)'
   location: 'Burnaby, BC & Remote'
   start: 'Sep 2015'
   end: 'present'
-  description: "Set up computer and office equipment and ensure they are in good working order. Monitor the classroom to maintain a safe, orderly learning environment. Provide homework help and coach effective study and organizational skills."
+  doings: 
+  - "Set up computer and office equipment and ensure they are in good working order."
+  - "Monitor the classroom to maintain a safe, orderly learning environment."
+  - "Provide homework help and coach effective study and organizational skills."

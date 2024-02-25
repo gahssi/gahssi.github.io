@@ -4,6 +4,9 @@
 - name: 'CCNA 1-3 [Cisco NetAcad]'
   organization: Cisco
   date: '2024'
+- name: 'Network Security 1.0 [Cisco NetAcad]'
+  organization: Cisco
+  date: '2024'
 #- name: CCNA 200-301
 #  organization: British Columbia Institute of Technology
 #  date: '2023'

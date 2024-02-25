@@ -106,7 +106,7 @@ show_footer: false
 <section style="border-bottom: 1px solid black;">
 	<h1 class="my-0">Alexander Yemane</h1>
 	<p class="mb-1">
-		Driven by curiosity, Defined by integrity. Determined to plot a socially responsible course for people, processes, and technology.
+		Driven by curiosity, Defined by integrity, Determined to plot a socially responsible course for people, processes, and technology.
 	</p>
 	<p class="contact my-2">
 		{% for item in site.data.contacts.default %}
@@ -226,14 +226,15 @@ show_footer: false
 				{% if job.description %}
 				<p>{{ job.description }}</p>
 				{% endif %}
-				<!-- <ul class="work">
+				<ul class="work">
 					{% for task in job.doings %}
 					<li class="work">{{ task }}</li>
 					{% endfor %}
-				</ul> -->
+				</ul>
 			</div>
 		</div>
 	</div>
+	<p style="line-height:1.5px;margin:0px;"><br/></p>
 	{% endfor %}
 </section>
 {% endcapture %}
@@ -250,6 +251,7 @@ show_footer: false
 				{{ project.dates.end | date: "%Y" }}{% if project.brief %}:&nbsp;{{ project.brief }}{% else if project.description %}:&nbsp;{{ project.description }}{% else %}.{% endif %}
 			</span>
 		</p>
+		<p style="line-height:8px;margin:0px;"><br/></p>
 		{% endif %}
 		{% endfor %}
 	</div>
