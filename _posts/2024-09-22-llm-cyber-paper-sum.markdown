@@ -7,7 +7,7 @@ categories: jekyll update
 
 ## LLMs and security vulnerability mitigation: research paper review
 
-**Summary 1: Deep learning and web applications vulnerabilities detection: An approach based on large language models**
+#### Summary 1: Deep learning and web applications vulnerabilities detection: An approach based on large language models
 
 “Deep Learning and Web Applications Vulnerabilities Detection: An Approach Based on Large Language Models” by Nana et al (2024) presents a comprehensive review of vulnerability detection for web applications, and proposes the use of Large Language Models (LLMs) to improve current security measures. 
 
@@ -17,7 +17,7 @@ LLMs pose as a promising alternative to this limitation, as LLMs can be fine tun
 
 The authors conclude that LLMs have provided several interesting results, but can’t be generalized to web applications as of now. In terms of future research, they then first propose to experiment with an LLM-based approach for detecting web attacks by using publicly available datasets, and to build a local dataset utilizing a to-be-derived data collection strategy to gather  malicious URLs from Burkinabe cyberspace. 
 
-**Summary 2: Large Language Models in Cybersecurity: State-of-the-Art**
+#### Summary 2: Large Language Models in Cybersecurity: State-of-the-Art
 
 "Large Language Models in Cybersecurity: State-of-the-Art" explores the growing role of large language models (LLMs) in the cybersecurity domain, focusing on both defensive and adversarial applications. The paper provides a comprehensive review of how LLMs are transforming traditional cybersecurity practices, aligning these innovations with standards like the NIST Cybersecurity Framework (CSF) and MITRE Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK), and the challenges posed by research gaps in the field.
 
@@ -29,7 +29,7 @@ The authors identified gaps in knowledge in the defensive application of LLMs pa
 
 Reviewing these latest developments in LLM use in cybersecurity help illustrate their dual utility, offering powerful tools for both defense and attack. The authors finally call for more research into adversarial applications to balance the opportunities and threats posed by LLMs, hence helping security researchers accurately assess risks of LLM-based attacks and keep ahead of advancements by malicious actors.
 
-**Summary 3: SQLIGPT: Evaluating and utilizing large language models for automated SQL injection black-box detection**
+#### Summary 3: SQLIGPT: Evaluating and utilizing large language models for automated SQL injection black-box detection
 
 SQL injection (SQLI) is a common web application vulnerability that involves inserting malicious SQL code into queries, allowing attackers to manipulate or access sensitive information. Various testing methods, detection methods, and tools have been developed to combat this. Recent advancements in technology, particularly the use of Large Language Models (LLMs), are becoming increasingly popular and showing promising results for detecting and mitigating SQLI vulnerabilities in a system. 
 
@@ -44,7 +44,7 @@ We can simplify SqliGPT into a 7-step process. Firstly, the user provides a URL 
 
 LLMs continue to make significant advancements in SQLI detection. Tools like SqliGPT offer promising improvements over traditional methods, but there are however challenges that arise from using such tools. High costs, false positives, and a lack of deep logical reasoning are all challenges that arise from using LLMs for SQLIs. 
 
-**Summary 4: Conclusion about the studied domain**
+#### Conclusion about the studied domain
 
 The integration of Large Language Models (LLMs) into vulnerability detection and mitigation has played a huge role in the advancement of cybersecurity practices. They offer enhanced capabilities in identifying attack patterns and automating detection, making them useful tools for identifying threats and vulnerabilities, especially SQL injections (SQLI).
 
@@ -62,6 +62,6 @@ Additionally, the dual-use nature of LLMs has been well stressed, leading to a b
 
 #### References
 
-Gui, Z., Wang, E., Deng, B., Zhang, M., Chen, Y., Wei, S., Xie, W., & Wang, B. (2024, August 7). SQLIGPT: Evaluating and utilizing large language models for automated SQL injection black-box detection. MDPI. https://www.mdpi.com/2076-3417/14/16/6929 
-Nana, S. R., Bassole, D., Guel, D., & Sie, O. (2024). Deep learning and web applications vulnerabilities detection: An approach based on large language models. International Journal of Advanced Computer Science and Applications, 15(7). https://doi.org/10.14569/ijacsa.2024.01507135 
-Motlagh, F. N., Hajizadeh, M., Majd, M., Najafi, P., Cheng, F., & Meinel, C. (2024). Large Language Models in Cybersecurity: State-of-the-Art. arXiv. https://arxiv.org/abs/2402.00891
+1. Gui, Z., Wang, E., Deng, B., Zhang, M., Chen, Y., Wei, S., Xie, W., & Wang, B. (2024, August 7). SQLIGPT: Evaluating and utilizing large language models for automated SQL injection black-box detection. MDPI. https://www.mdpi.com/2076-3417/14/16/6929 
+2. Nana, S. R., Bassole, D., Guel, D., & Sie, O. (2024). Deep learning and web applications vulnerabilities detection: An approach based on large language models. International Journal of Advanced Computer Science and Applications, 15(7). https://doi.org/10.14569/ijacsa.2024.01507135 
+3. Motlagh, F. N., Hajizadeh, M., Majd, M., Najafi, P., Cheng, F., & Meinel, C. (2024). Large Language Models in Cybersecurity: State-of-the-Art. arXiv. https://arxiv.org/abs/2402.00891
