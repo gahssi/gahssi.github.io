@@ -25,4 +25,17 @@
   - Penetration Testing
   - Embedded Systems
   - Control Systems
+- school: SFU
+  degree: Master's
+  major: Cybersecurity
+  start: Sep 2024
+  end: May 2026
+  affiliations:
+  - defpwn
+  courses:
+  - Networking
+  - Windows & Linux System Administration
+  - Penetration Testing
+  - Embedded Systems
+  - Control Systems
   
