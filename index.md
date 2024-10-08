@@ -52,7 +52,9 @@ title: Alexander's Abode
 
 Welcome to my little hideout on the internet! My name is Alexander Yemane, and here you will find stuff about me, my passions, my studies, and my compendium of curiosities, which are mostly curated towards my cybersecurity educational journey.
 
-I'm a grad student pursuing a Master of Cybersecurity at [SFU](https://www.sfu.ca/). Outside of school, You might find me in various meetups and events around Vancouver, like those hosted by [MARS](https://fourthplanet.ca/), [DC604](https://dc604.ca/), [OWASP](https://owasp.org/www-chapter-vancouver/), and [ISACA](https://engage.isaca.org/vancouverchapter/home), or playing in CTFs with the [UBC](https://maplebacon.org/) and SFU student teams. You can find this information and more in my [CV](cv).
+I'm a grad student currently pursuing a Master of Cybersecurity at [SFU](https://www.sfu.ca/). Outside of school, you might find me in various meetups and events around Vancouver, usually being hosted by [MARS](https://fourthplanet.ca/), [DC604](https://dc604.ca/), [OWASP](https://owasp.org/www-chapter-vancouver/), and [ISACA](https://engage.isaca.org/vancouverchapter/home), or playing in CTFs with the [UBC](https://maplebacon.org/) and SFU student teams. 
+
+You can find more info in my [CV](cv).
 
 NB: This site is a perpetual work-in-progress
 
