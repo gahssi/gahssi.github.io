@@ -11,13 +11,17 @@ categories: jekyll update
 
 As part of a recent cybersecurity lab assignment, I explored how to leverage Splunk, Sysmon, and Atomic Red Team to detect malicious PowerShell activities on a Windows machine. This blog post documents the steps I took and some of the lessons learned in using Splunk for blue teaming efforts.
 
+### Tools Used 
+
 **Splunk** is a versatile platform for searching, analyzing, and visualizing real-time data gathered from websites, applications, servers, and network devices. Splunk provides operational intelligence that helps organizations quickly identify and resolve issues, uncover insights, and make data-driven decisions. In security contexts, it functions as an analytics-driven Security Information and Event Management (SIEM) solution.
 
-**Splunk Universal Forwarder** is a lightweight version of the Splunk software designed for efficient data collection and forwarding. It can be installed on remote sources with minimal impact on system performance, sending collected data to a Splunk indexer for centralized analysis.
+**Splunk Universal Forwarder** is a lightweight version of the Splunk software designed for efficient data collection and forwarding. It can be installed on remote sources, sending collected data to a Splunk indexer for centralized analysis.
 
 **System Monitor (Sysmon)** is a Windows system service and device driver that remains active across system reboots to monitor and log system activity to the Windows event log. Sysmon provides detailed information about process creations, network connections, and changes to file creation times, aiding in the detection of malicious activities and system anomalies.
 
 **Atomic Red Team** is an open-source library of tests that simulate adversarial techniques mapped to the MITRE ATT&CK framework. It enables security teams to emulate malicious activities in a controlled environment, helping to test and improve their detection and response capabilities by identifying gaps in security controls.
+
+The entire lab was ran with two virtual machines connected on an internal network on VirtualBox. I chose Atomic Red Team for this lab due to its out-of-the-box usability, but for further exploration you could add a Kali VM to the network and create custom attack scenarios besides the ones performed here.
 
 ---
 
@@ -64,14 +68,14 @@ sudo /opt/splunk/bin/splunk enable listen 9997
 
 ### Installing Sysmon on Windows
 
-1. **Download Sysmon** from the [Microsoft Sysinternals website](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon).
-2. **Install Sysmon** with an augmented configuration:
+1. Download Sysmon from the [Microsoft Sysinternals website](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon).
+2. Install Sysmon with an augmented configuration:
 
    ```bash
-   sysmon -i sysmonconfig-export.xml
+   sysmon64 -accepteula -i sysmonconfig.xml
    ```
 
-   *Note: I used [OlafHartong's default Sysmon config](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml).*
+   I used a configuration from the [sysmon-modular](https://github.com/olafhartong/sysmon-modular/blob/master/sysmonconfig.xml) repo by olafhartong. 
 
 ### Configuring the Universal Forwarder to Collect Sysmon Logs
 
@@ -116,7 +120,8 @@ To verify log reception in Splunk:
 3. Install the `Invoke-AtomicRedTeam` Module:
 
    ```powershell
-   Install-Module Invoke-AtomicRedTeam -Scope CurrentUser
+   Install-Module -Name invoke-atomicredteam,powershell-yaml -Scope CurrentUser
+   Import-Module Invoke-AtomicRedTeam (optional)
    ```
 
 4. Set the Path to Atomic Tests:
@@ -146,6 +151,14 @@ Invoke-AtomicTest T1027 -TestNumbers 3
 ```powershell
 Invoke-AtomicTest T1547.004 -TestNumbers 1
 ```
+
+To clean up changes to the system after executing atomic tests:
+```powershell
+Invoke-AtomicTest T1059.001 -CleanUp
+Invoke-AtomicTest T1027-3 -CleanUp
+Invoke-AtomicTest T1547.004-1 -CleanUp
+```
+
 
 ---
 
