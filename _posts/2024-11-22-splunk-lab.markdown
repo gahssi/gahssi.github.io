@@ -11,13 +11,21 @@ categories: jekyll update
 
 As part of a recent cybersecurity lab assignment, I explored how to leverage Splunk, Sysmon, and Atomic Red Team to detect malicious PowerShell activities on a Windows machine. This blog post documents the steps I took and some of the lessons learned in using Splunk for blue teaming efforts.
 
+**Splunk** is a versatile platform for searching, analyzing, and visualizing real-time data gathered from websites, applications, servers, and network devices. Splunk provides operational intelligence that helps organizations quickly identify and resolve issues, uncover insights, and make data-driven decisions. In security contexts, it functions as an analytics-driven Security Information and Event Management (SIEM) solution.
+
+**Splunk Universal Forwarder** is a lightweight version of the Splunk software designed for efficient data collection and forwarding. It can be installed on remote sources with minimal impact on system performance, sending collected data to a Splunk indexer for centralized analysis.
+
+**System Monitor (Sysmon)** is a Windows system service and device driver that remains active across system reboots to monitor and log system activity to the Windows event log. Sysmon provides detailed information about process creations, network connections, and changes to file creation times, aiding in the detection of malicious activities and system anomalies.
+
+**Atomic Red Team** is an open-source library of tests that simulate adversarial techniques mapped to the MITRE ATT&CK framework. It enables security teams to emulate malicious activities in a controlled environment, helping to test and improve their detection and response capabilities by identifying gaps in security controls.
+
 ---
 
 ## Setup of Splunk and Universal Forwarder
 
 ### Installing Splunk Enterprise
 
-To begin, I installed Splunk Enterprise on an Ubuntu Desktop VM to serve as the centralized log analysis and management system. When you first install Splunk it will automatically install an Enterprise Trial license enabled by default. The Splunk Enterprise Trial license is good for 60 days, and after that it will downgrade to the Splunk Free license, which has limited features.
+To begin, I installed Splunk Enterprise on an Ubuntu Desktop VM. When you first install Splunk it will automatically install an Enterprise Trial license enabled by default. The Splunk Enterprise Trial license is good for 60 days, and after that it will downgrade to the Splunk Free license, which has limited features.
 
 1. Download Splunk Enterprise from the [official website](https://www.splunk.com/en_us/download/splunk-enterprise.html).
 2. Install Splunk using the `.deb` package:
@@ -56,8 +64,6 @@ sudo /opt/splunk/bin/splunk enable listen 9997
 
 ### Installing Sysmon on Windows
 
-Sysmon provides detailed logs of system activities, which are essential for detecting malicious behavior.
-
 1. **Download Sysmon** from the [Microsoft Sysinternals website](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon).
 2. **Install Sysmon** with an augmented configuration:
 
@@ -84,9 +90,7 @@ Sysmon provides detailed logs of system activities, which are essential for dete
 
 2. Restart the Universal Forwarder to apply changes.
 
-### Verifying Log Reception in Splunk
-
-On the Splunk server:
+To verify log reception in Splunk:
 
 1. Search for Sysmon logs in Splunk Web:
 
@@ -101,8 +105,6 @@ On the Splunk server:
 ## Testing PowerShell Exploitation with Atomic Red Team
 
 ### Installing Atomic Red Team
-
-Atomic Red Team simulates adversary techniques to test detection capabilities.
 
 1. Install Git on Windows if not already installed.
 2. Clone the Atomic Red Team Repository:
@@ -125,6 +127,8 @@ Atomic Red Team simulates adversary techniques to test detection capabilities.
 
 ### Executing Atomic Tests for PowerShell Exploitation
 
+I selected three Atomic Tests to emulate different aspects of scripting, obfuscation, and persistence used by a potential attacker.
+
 #### Test 1: Download and Execute Mimikatz
 
 ```powershell
@@ -145,7 +149,9 @@ Invoke-AtomicTest T1547.004 -TestNumbers 1
 
 ---
 
-## Analysis, Alerts, and Automated Responses
+## Alerts and Automated Responses
+
+To enhance the detection capabilities, I explored creating fine-grained alerts and automating responses to detected threats.
 
 #### Alert for Malicious PowerShell Activity
 
@@ -176,9 +182,7 @@ index=windows sourcetype=XmlWinEventLog EventCode=13
 | sort - _time
 ```
 
-#### Creating a Script to Kill Malicious Processes
-
-To enhance the detection capabilities, I explored automating responses to detected threats.
+#### Creating a Script to Kill Malicious Powershell Processes Automatically
 
 ```powershell
 # kill_malicious_process.ps1
@@ -202,7 +206,7 @@ $ScriptBlock = {
 Invoke-Command -ComputerName $TargetComputer -ScriptBlock $ScriptBlock
 ```
 
-To configure Splunk to execute the script on alert, I modified the alert action to run the script, passing the script's name.
+To configure Splunk to execute the script on alert trigger, I modified the alert action to run the script, passing the script's name.
 
 ---
 
