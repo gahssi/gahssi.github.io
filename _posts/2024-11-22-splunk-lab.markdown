@@ -9,7 +9,7 @@ categories: jekyll update
 
 ## Introduction
 
-In the ever-evolving landscape of cybersecurity, detecting and responding to threats promptly is crucial. As part of a recent cybersecurity lab assignment, I explored how to leverage Splunk, Sysmon, and Atomic Red Team to detect malicious PowerShell activities on a Windows machine. This blog post documents the steps I took and some of the lessons learned in using Splunk for blue teaming efforts.
+As part of a recent cybersecurity lab assignment, I explored how to leverage Splunk, Sysmon, and Atomic Red Team to detect malicious PowerShell activities on a Windows machine. This blog post documents the steps I took and some of the lessons learned in using Splunk for blue teaming efforts.
 
 ---
 
@@ -19,28 +19,28 @@ In the ever-evolving landscape of cybersecurity, detecting and responding to thr
 
 To begin, I installed Splunk Enterprise on an Ubuntu Desktop VM to serve as the centralized log analysis and management system. When you first install Splunk it will automatically install an Enterprise Trial license enabled by default. The Splunk Enterprise Trial license is good for 60 days, and after that it will downgrade to the Splunk Free license, which has limited features.
 
-1. **Download Splunk Enterprise** from the [official website](https://www.splunk.com/en_us/download/splunk-enterprise.html).
-2. **Install Splunk** using the `.deb` package:
+1. Download Splunk Enterprise from the [official website](https://www.splunk.com/en_us/download/splunk-enterprise.html).
+2. Install Splunk using the `.deb` package:
 
    ```bash
    sudo dpkg -i splunk-package-name.deb
    ```
 
-3. **Start Splunk** and accept the license agreement:
+3. Start Splunk and accept the license agreement:
 
    ```bash
    sudo /opt/splunk/bin/splunk start --accept-license --answer-yes
    ```
 
-4. **Create an Administrator Account** when prompted.
+4. Create an Administrator Account when prompted.
 
 ### Setting Up Splunk Universal Forwarder on Windows
 
 On a Windows 10 VM, I installed the Splunk Universal Forwarder to send logs to the Splunk server.
 
-1. **Download the Universal Forwarder** from the [Splunk website](https://www.splunk.com/en_us/download/universal-forwarder.html).
-2. **Install the Forwarder** using the installer, specifying the Splunk server's IP address and receiving port.
-3. **Configure Forwarding** by creating/editing the `inputs.conf` file to ensure logs are sent to the correct destination.
+1. Download the Universal Forwarder from the [Splunk website](https://www.splunk.com/en_us/download/universal-forwarder.html).
+2. Install the Forwarder using the installer, specifying the Splunk server's IP address and receiving port.
+3. Configure Forwarding by creating/editing the `inputs.conf` file to ensure logs are sent to the correct destination.
 
 ### Enabling Data Receiving on Splunk Server
 
@@ -90,7 +90,7 @@ On the Splunk server:
 
 1. Search for Sysmon logs in Splunk Web:
 
-   ```spl
+   ```sql
    index=windows sourcetype=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational
    ```
 
@@ -147,11 +147,9 @@ Invoke-AtomicTest T1547.004 -TestNumbers 1
 
 ## Analysis, Alerts, and Automated Responses
 
-### Creating Splunk Alerts for Malicious Activity
-
 #### Alert for Malicious PowerShell Activity
 
-```spl
+```sql
 index=windows sourcetype=XmlWinEventLog EventCode=1 
 (Image="*\\powershell.exe" OR ParentImage="*\\powershell.exe") 
 (
@@ -169,24 +167,18 @@ index=windows sourcetype=XmlWinEventLog EventCode=1
 | sort - _time
 ```
 
-*Detects suspicious PowerShell commands indicative of malicious activity.*
-
 #### Alert for Registry Modifications to Winlogon
 
-```spl
+```sql
 index=windows sourcetype=XmlWinEventLog EventCode=13 
 | where like(TargetObject, "%\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Shell")
 | table _time ComputerName User TargetObject Details
 | sort - _time
 ```
 
-*Detects changes to the Winlogon registry keys used for persistence.*
-
-### Implementing Automated Response Actions
+#### Creating a Script to Kill Malicious Processes
 
 To enhance the detection capabilities, I explored automating responses to detected threats.
-
-#### Creating a Script to Kill Malicious Processes
 
 ```powershell
 # kill_malicious_process.ps1
@@ -210,15 +202,13 @@ $ScriptBlock = {
 Invoke-Command -ComputerName $TargetComputer -ScriptBlock $ScriptBlock
 ```
 
-*This script identifies and terminates malicious PowerShell processes.*
-
 To configure Splunk to execute the script on alert, I modified the alert action to run the script, passing the script's name.
 
 ---
 
 ## Lessons Learned
 
-Working on this lab was a valuable experience that deepened my understanding of blue teaming and defensive security. Setting up Splunk and integrating it with Sysmon allowed me to see firsthand how powerful these tools can be in monitoring and analyzing system activities. Using Atomic Red Team to simulate real-world attacks made the learning process engaging and practical, as I could directly observe how malicious activities manifest in logs and how they can be detected.
+Working on this lab was a valuable experience in practicing blue teaming and threat detection. Setting up Splunk and integrating it with Sysmon allowed me to see how powerful these tools can be in monitoring and analyzing system activities. Using Atomic Red Team to simulate real-world attacks made the learning process engaging as I could directly observe how malicious activities manifest in logs and how they can be detected.
 
 One of the biggest takeaways was the importance of precise configuration and tuning of queries. Splunk's Search Processing Language is quite deep, and there are many opportunities for optimizing your queries to minimize the number of trips to the indexers and wasteful calculations. Crafting effective alerts also requires a good grasp of your underlying system behaviors and threat model.
 
@@ -233,7 +223,3 @@ One of the biggest takeaways was the importance of precise configuration and tun
 - ![Atomic Red Team Test Execution](path/to/screenshot3.png)
 - ![Automated Response Script Execution](path/to/screenshot4.png)
 - ![Splunk Alert Configuration](path/to/screenshot5.png)
-
----
-
-*Thank you for reading! Feel free to share your thoughts or ask questions in the comments below.*
