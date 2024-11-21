@@ -1,30 +1,15 @@
 ---
 layout: post
 title:  "Splunk Lab Demo"
-date:   2024-11-22 01:26:09 -0700
+date:   2024-11-22 08:29:20 -0700
 categories: jekyll update
 ---
 
 # Detecting Malicious PowerShell Activity with Splunk and Sysmon
 
-*Date: October 26, 2023*
-
----
-
 ## Introduction
 
 In the ever-evolving landscape of cybersecurity, detecting and responding to threats promptly is crucial. As part of a recent cybersecurity lab assignment, I explored how to leverage Splunk, Sysmon, and Atomic Red Team to detect malicious PowerShell activities on a Windows machine. This blog post documents the steps I took, the challenges faced, and the lessons learned in using Splunk for blue teaming efforts.
-
----
-
-## Table of Contents
-
-- [Setup of Splunk and Universal Forwarder](#setup-of-splunk-and-universal-forwarder)
-- [Integrating Sysmon Logs with Splunk](#integrating-sysmon-logs-with-splunk)
-- [Testing PowerShell Exploitation with Atomic Red Team](#testing-powershell-exploitation-with-atomic-red-team)
-- [Analysis, Alerts, and Automated Responses](#analysis-alerts-and-automated-responses)
-- [Lessons Learned](#lessons-learned)
-- [Conclusion](#conclusion)
 
 ---
 
